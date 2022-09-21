@@ -514,6 +514,24 @@
           "isRecursive": true
         }
       ]
+    },
+    {
+      "name": "Optional: Janthor's Addons",
+      "authors": [
+        "Janthor",
+        "Reusing code from rapito + UnclePunch + Fizzi"
+      ],
+      "description": [
+        "Loads the Addons file from the GameFiles folder for custom ingame functionality",
+        "Will not cause desyncs when playing online"
+      ],
+      "build": [
+        {
+          "type": "injectFolder",
+          "sourceFolder": "Addons",
+          "isRecursive": true
+        }
+      ]
     }
   ]
 }
