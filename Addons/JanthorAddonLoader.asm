@@ -33,6 +33,7 @@ backupall
   mtctr REG_FX_ARRAY
   bctrl 
 
+FileNotExist:
 restoreall
 b EXIT
 
@@ -112,10 +113,6 @@ SymbolName:
 blrl
 .string "hkFunction"
 .align 2
-
-FileNotExist:
-restoreall
-b EXIT
 
 EXIT:
 
